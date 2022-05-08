@@ -90,7 +90,7 @@ module.exports = async (client) => {
          return [...accumulator, {id: r.id, permissions}]
        }, [])
 
-       await MainGuild.commands.permissions.set({ fullPermissions });
+       //await MainGuild.commands.permissions.set({ fullPermissions });
      });
    });
 };
